@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(nul)",
+      "Bash(dir:*)",
+      "mcp__playwright__browser_click",
+      "mcp__playwright__browser_file_upload",
+      "Bash(curl:*)",
+      "Bash(python -m json.tool:*)",
+      "Bash(openapi_full.json)",
+      "Bash(python -c:*)",
+      "Bash(rm:*)",
+      "mcp__playwright__browser_navigate",
+      "Bash(pip install:*)",
+      "Bash(npm run dev:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git add .)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
